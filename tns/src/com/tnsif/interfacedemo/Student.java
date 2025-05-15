@@ -1,14 +1,13 @@
 package com.tnsif.interfacedemo;
 //take user input
 import java.util.Scanner;
-
 public class Student {
-	String username1;
-	int id;
-	int number;
+    String username1;
+    int id;
+    int number;
 
-	// Constructor to input data
-    Student(String String) {
+    // Constructor to input data
+    public Student() {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the username: ");
